@@ -1,11 +1,133 @@
-/**
- * Any CSS included here will be global. The classic template
- * bundles Infima by default. Infima is a CSS framework designed to
- * work well for content-centric websites.
- */
+/* Root Variables */
+:root {
+  --ifm-color-primary: #4caf50; /* Adjust primary color */
+  --ifm-color-secondary: #8bc34a;
+  --ifm-background-color: #121212;
+  --ifm-color-text: #e0e0e0;
+  --ifm-color-text-secondary: #b0bec5;
+  --ifm-font-family-base: 'Roboto', sans-serif; /* Update with the site's font */
+  --ifm-font-family-monospace: 'Fira Code', monospace;
+
+  --gradient-background: linear-gradient(135deg, #1e1e1e, #303030);
+  --hover-color: #76ff03; /* Hover color for links */
+  --border-color: #37474f;
+}
+
+/* General Styles */
+body {
+  background: var(--gradient-background);
+  color: var(--ifm-color-text);
+  font-family: var(--ifm-font-family-base);
+  line-height: 1.6;
+}
+
+a {
+  color: var(--ifm-color-primary);
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+a:hover {
+  color: var(--hover-color);
+}
+
+/* Navbar */
+.navbar {
+  background-color: var(--ifm-background-color);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.navbar__link {
+  color: var(--ifm-color-text);
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+
+.navbar__link:hover {
+  color: var(--hover-color);
+}
+
+.navbar__logo img {
+  max-height: 40px;
+}
+
+/* Footer */
+.footer {
+  background-color: var(--ifm-background-color);
+  color: var(--ifm-color-text-secondary);
+  padding: 20px;
+  border-top: 1px solid var(--border-color);
+}
+
+.footer a {
+  color: var(--ifm-color-primary);
+  transition: color 0.3s ease;
+}
+
+.footer a:hover {
+  color: var(--hover-color);
+}
+
+/* Buttons */
+button,
+.button {
+  background-color: var(--ifm-color-primary);
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 4px;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+button:hover,
+.button:hover {
+  background-color: var(--hover-color);
+  transform: translateY(-2px);
+}
+
+/* Code Blocks */
+pre {
+  background-color: #263238;
+  color: #c3e88d;
+  padding: 20px;
+  border-radius: 6px;
+  overflow-x: auto;
+}
+
+code {
+  font-family: var(--ifm-font-family-monospace);
+  font-size: 0.9em;
+  color: #ffcb6b;
+}
+
+/* Cards */
+.card {
+  background-color: var(--ifm-background-color);
+  border: 1px solid var(--border-color);
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+/* Dark Mode */
+@media (prefers-color-scheme: dark) {
+  :root {
+    --ifm-background-color: #121212;
+    --ifm-color-text: #e0e0e0;
+    --ifm-color-text-secondary: #b0bec5;
+    --border-color: #37474f;
+    --gradient-background: linear-gradient(135deg, #1e1e1e, #303030);
+  }
+}
+
 
 /* You can override the default Infima variables here. */
-:root {
+/* :root {
   --ifm-color-primary: #2e8555;
   --ifm-color-primary-dark: #29784c;
   --ifm-color-primary-darker: #277148;
@@ -15,10 +137,10 @@
   --ifm-color-primary-lightest: #3cad6e;
   --ifm-code-font-size: 95%;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
-}
+} */
 
 /* For readability concerns, you should choose a lighter palette in dark mode. */
-[data-theme='dark'] {
+/* [data-theme='dark'] {
   --ifm-background-color: #000000;
   --ifm-color-primary: #25c2a0;
   --ifm-color-primary-dark: #21af90;
@@ -28,4 +150,4 @@
   --ifm-color-primary-lighter: #32d8b4;
   --ifm-color-primary-lightest: #4fddbf;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
-}
+} */
