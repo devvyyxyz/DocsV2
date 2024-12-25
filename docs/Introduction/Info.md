@@ -1,5 +1,6 @@
 ---
 title: Info
+description: Basic information about the docs repo
 sidebar_position: 1
 ---
 

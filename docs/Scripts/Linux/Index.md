@@ -1,11 +1,16 @@
 ---
 title: Linux scripts
+description: Useful Linux Scripts
 sidebar_position: 1
 ---
 
-!!!danger
+import TOCInline from '@theme/TOCInline';
+
+<TOCInline toc={toc}/>
+
+:::danger
 Please ensure you understand the purpose of each script before running it, as some scripts may alter system settings or delete files. Always run with appropriate permissions, especially for scripts requiring sudo access.
-!!!
+:::
 
 ## Download
 

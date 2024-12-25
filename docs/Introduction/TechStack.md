@@ -1,5 +1,6 @@
 ---
 title: Tech Stack
+description: My (devvyyxyz) personal tech stack
 sidebar_position: 3
 ---
 

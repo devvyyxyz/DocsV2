@@ -1,7 +1,12 @@
 ---
-title: betas
+title: Betas
+description: How to install steam betas
 sidebar_position: 1
 ---
+
+import TOCInline from '@theme/TOCInline';
+
+<TOCInline toc={toc}/>
 
 <!-- How to access beta versions of games on Steam, allowing you to try upcoming features or experimental updates before they're officially released. Follow the step-by-step instructions to opt into a game's beta branch.
 

@@ -1,3 +1,13 @@
+---
+title: Creating Mods
+description: How to create mods in BMD
+sidebar_position: 2
+---
+
+import TOCInline from '@theme/TOCInline';
+
+<TOCInline toc={toc} maxHeadingLevel={2} minHeadingLevel={2}/>
+
 This guide provides detailed instructions on creating mods for Bot Maker for Discord (BMD).
 
 Also, please follow the general structure when creating mods. Therefore, add **\_MOD** after your mod name, don't include any additional dots or spaces, and make sure to include the info object within your modded action.

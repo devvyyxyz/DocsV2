@@ -1,3 +1,13 @@
+---
+title: Common Errors
+description: Commonly met errors in BMD
+sidebar_position: 1
+---
+
+import TOCInline from '@theme/TOCInline';
+
+<TOCInline toc={toc} maxHeadingLevel={2} minHeadingLevel={2}/>
+
 This document outlines frequent console errors encountered in Bot Maker For Discord (which uses Oceanic.js) and provides their solutions.
 
 ## Error: `Unhandled Rejection DiscordRESTError: Invalid Form Body`

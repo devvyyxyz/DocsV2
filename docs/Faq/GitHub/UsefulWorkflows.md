@@ -1,3 +1,13 @@
+---
+title: Useful Workflows
+description: Useful workflows for GitHub
+sidebar_position: 1
+---
+
+import TOCInline from '@theme/TOCInline';
+
+<TOCInline toc={toc}/>
+
 !!!danger
 While these workflows are designed to automate tasks and improve efficiency, always review and test any changes to the workflows before deploying them in a production environment. Incorrect configurations may lead to unintended consequences, such as overwriting data, deploying unstable code, or exposing sensitive information. Use with caution and ensure sensitive secrets are securely managed using GitHub's secrets feature.
 !!!

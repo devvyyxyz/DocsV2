@@ -1,7 +1,12 @@
 ---
 title: Clean Up Arch Linux
+description: Guide on cleaning up Arch Linux
 sidebar_position: 1
 ---
+
+import TOCInline from '@theme/TOCInline';
+
+<TOCInline toc={toc}/>
 
 ## Contents
 - Clean pkg cache

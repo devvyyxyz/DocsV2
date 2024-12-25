@@ -1,0 +1,8 @@
+intro:
+  label: 'Intro'
+  permalink: '/intro-tag'
+  description: ''
+main:
+  label: 'Main'
+  permalink: '/main-tag'
+  description: ''
