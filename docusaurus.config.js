@@ -12,10 +12,10 @@ import {themes as prismThemes} from 'prism-react-renderer';
 const config = {
   title: 'Devvyyxyz docs',
   tagline: 'Creating, Innovation & Expert Learning',
-  favicon: 'img/favicon.ico',
+  favicon: 'static/Ico/Favicon.ico',
 
   // Set the production url of your site here
-  url: 'https://your-docusaurus-site.example.com',
+  url: 'https://docs.devvyy.xyz',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
   baseUrl: '/',
@@ -33,7 +33,133 @@ const config = {
   // may want to replace "en" with "zh-Hans".
   i18n: {
     defaultLocale: 'en',
-    locales: ['en'],
+    locales: [
+    "en",
+    "es",
+    "hi",
+    "ar",
+    "bn",
+    "pt",
+    "ru",
+    "ja",
+    "pa",
+    "de",
+    "ko",
+    "fr",
+    "vi",
+    "tr",
+    "it",
+    "sw",
+    "ta",
+    "fa",
+    "ur",
+    "ms",
+    "te",
+    "mr",
+    "th",
+    "pl",
+    "sv",
+    "da",
+    "nl",
+    "cs",
+    "el",
+    "hu"
+  ],
+    localeConfigs: {
+      en: {
+        label: 'English',
+      },
+      es: {
+        label: 'Spanish',
+      },
+      zhcn: {
+        label: 'Mandarin',
+      },
+      hi: {
+        label: 'Hindi',
+      },
+      ar: {
+        label: 'Arabic',
+      },
+      bn: {
+        label: 'Bengali',
+      },
+      pt: {
+        label: 'Portuguese',
+      },
+      ru: {
+        label: 'Russian',
+      },
+      ja: {
+        label: 'Japanese',
+      },
+      pa: {
+        label: 'Punjabi',
+      },
+      de: {
+        label: 'German',
+      },
+      ko: {
+        label: 'Korean',
+      },
+      fr: {
+        label: 'French',
+      },
+      vi: {
+        label: 'Vietnamese',
+      },
+      tr: {
+        label: 'Turkish',
+      },
+      it: {
+        label: 'Italian',
+      },
+      sw: {
+        label: 'Swahili',
+      },
+      ta: {
+        label: 'Tamil',
+      },
+      fa: {
+        label: 'Persian (Farsi)',
+      },
+      ur: {
+        label: 'Urdu',
+      },
+      ms: {
+        label: 'Malay/Indonesian',
+      },
+      te: {
+        label: 'Telugu',
+      },
+      mr: {
+        label: 'Marathi',
+      },
+      th: {
+        label: 'Thai',
+      },
+      pl: {
+        label: 'Polish',
+      },
+      sv: {
+        label: 'Swedish',
+      },
+      da: {
+        label: 'Danish',
+      },
+      nl: {
+        label: 'Dutch',
+      },
+      cs: {
+        label: 'Czech',
+      },
+      el: {
+        label: 'Greek',
+      },
+      hu: {
+        label: 'Hungarian',
+      },
+    },
   },
 
   presets: [
@@ -76,12 +202,12 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       // Replace with your project's social card
-      image: 'assets/Banners/FAQ.png',
+      image: 'static/banners/FAQ.png',
       navbar: {
         title: 'Devvyyxyz | DOCS',
         logo: {
           alt: 'Devvyyxyz Logo',
-          src: 'assets/Logo.png',
+          src: 'static/Png/Logo.png',
         },
         items: [
           {
@@ -108,6 +234,10 @@ const config = {
           {
             href: 'https://www.devvyy.xyz/privacy-policy',
             label: 'Privacy policy',
+            position: 'right',
+          },
+          {
+            type: 'localeDropdown',
             position: 'right',
           },
         ],

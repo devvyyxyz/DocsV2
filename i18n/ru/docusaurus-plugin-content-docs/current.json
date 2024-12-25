@@ -1,0 +1,26 @@
+{
+  "version.label": {
+    "message": "Next",
+    "description": "The label for version current"
+  },
+  "sidebar.tutorialSidebar.category.BMD": {
+    "message": "BMD",
+    "description": "The label for category BMD in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.GitHub": {
+    "message": "GitHub",
+    "description": "The label for category GitHub in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Introduction": {
+    "message": "Introduction",
+    "description": "The label for category Introduction in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Scripts": {
+    "message": "Scripts",
+    "description": "The label for category Scripts in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Index": {
+    "message": "Index",
+    "description": "The label for category Index in sidebar tutorialSidebar"
+  }
+}
