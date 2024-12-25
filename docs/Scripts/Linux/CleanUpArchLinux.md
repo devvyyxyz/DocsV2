@@ -1,3 +1,8 @@
+---
+title: Clean Up Arch Linux
+sidebar_position: 1
+---
+
 ## Contents
 - Clean pkg cache
 - Remove unused packages (orphans)

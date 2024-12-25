@@ -1,3 +1,8 @@
+---
+title: Tech Stack
+sidebar_position: 3
+---
+
 <img align="left" width="250" height="auto" src="https://avatars.githubusercontent.com/u/132696257"></img>
 
 ### Hey I'm Devvyyxyz

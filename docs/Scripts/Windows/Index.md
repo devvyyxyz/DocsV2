@@ -1,3 +1,8 @@
+---
+title: Windows scripts
+sidebar_position: 1
+---
+
 !!!danger
 Please ensure you understand the purpose of each script before running it, as some scripts may alter system settings or delete files. Always run with appropriate permissions, especially for scripts requiring administrative access.
 !!!

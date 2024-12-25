@@ -1,3 +1,8 @@
+---
+title: Info
+sidebar_position: 1
+---
+
 ## General Info
 
 ![GitHub Repo Stars](https://img.shields.io/github/stars/devvyyxyz/docs?style=social)![GitHub Forks](https://img.shields.io/github/forks/devvyyxyz/docs?style=social)![Watchers](https://img.shields.io/github/watchers/devvyyxyz/docs?style=social)
