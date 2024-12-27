@@ -1,32 +1,32 @@
 ---
-title: Info
+title: Repo Info & Stats
 description: Basic information about the docs repo
 sidebar_position: 1
 ---
 
 ## General Info
 
-![GitHub Repo Stars](https://img.shields.io/github/stars/devvyyxyz/docs?style=social)![GitHub Forks](https://img.shields.io/github/forks/devvyyxyz/docs?style=social)![Watchers](https://img.shields.io/github/watchers/devvyyxyz/docs?style=social)
+![GitHub Repo Stars](https://img.shields.io/github/stars/devvyyxyz/docsv2?style=social)![GitHub Forks](https://img.shields.io/github/forks/devvyyxyz/docsv2?style=social)![Watchers](https://img.shields.io/github/watchers/devvyyxyz/docsv2?style=social)
 
 ## Version and Build
 
-![Latest Release](https://img.shields.io/github/v/release/devvyyxyz/docs?include_prereleases)![GitHub Workflow Status](https://img.shields.io/github/actions/workflow/status/devvyyxyz/docs/release.yml?branch=main)![Code Size](https://img.shields.io/github/languages/code-size/devvyyxyz/docs)
+![Latest Release](https://img.shields.io/github/v/release/devvyyxyz/docsv2?include_prereleases)![GitHub Workflow Status](https://img.shields.io/github/actions/workflow/status/devvyyxyz/docsv2/release.yml?branch=main)![Code Size](https://img.shields.io/github/languages/code-size/devvyyxyz/docsv2)
 
 ## Activity
 
-![Last Commit](https://img.shields.io/github/last-commit/devvyyxyz/docs)![Open Issues](https://img.shields.io/github/issues/devvyyxyz/docs)![Open Pull Requests](https://img.shields.io/github/issues-pr/devvyyxyz/docs)
+![Last Commit](https://img.shields.io/github/last-commit/devvyyxyz/docsv2)![Open Issues](https://img.shields.io/github/issues/devvyyxyz/docsv2)![Open Pull Requests](https://img.shields.io/github/issues-pr/devvyyxyz/docsv2)
 
 ## Languages and Contributions
 
-![Top Language](https://img.shields.io/github/languages/top/devvyyxyz/docs)![Contributors](https://img.shields.io/github/contributors/devvyyxyz/docs)
+![Top Language](https://img.shields.io/github/languages/top/devvyyxyz/docsv2)![Contributors](https://img.shields.io/github/contributors/devvyyxyz/docsv2)
 
 ## Repository Statistics
 
-![GitHub Issues Closed](https://img.shields.io/github/issues-closed/devvyyxyz/docs)![Commits Per Month](https://img.shields.io/github/commit-activity/m/devvyyxyz/docs)![Contributors Count](https://img.shields.io/github/contributors-anon/devvyyxyz/docs)![Lines of Code](https://img.shields.io/tokei/lines/github/devvyyxyz/docs)![GitHub Discussions](https://img.shields.io/github/discussions/devvyyxyz/docs)![GitHub Sponsors](https://img.shields.io/github/sponsors/devvyyxyz)
+![GitHub Issues Closed](https://img.shields.io/github/issues-closed/devvyyxyz/docsv2)![Commits Per Month](https://img.shields.io/github/commit-activity/m/devvyyxyz/docsv2)![Contributors Count](https://img.shields.io/github/contributors-anon/devvyyxyz/docsv2)![Lines of Code](https://img.shields.io/tokei/lines/github/devvyyxyz/docsv2)![GitHub Discussions](https://img.shields.io/github/discussions/devvyyxyz/docsv2)![GitHub Sponsors](https://img.shields.io/github/sponsors/devvyyxyz)
 
 ## CI/CD and Development
 
-![GitHub Build Status](https://img.shields.io/github/workflow/status/devvyyxyz/docs/CI/main)![PRs Merged](https://img.shields.io/github/issues-pr-closed/devvyyxyz/docs)![Dependencies Status](https://img.shields.io/librariesio/github/devvyyxyz/docs)
+![GitHub Build Status](https://img.shields.io/github/workflow/status/devvyyxyz/docsv2/CI/main)![PRs Merged](https://img.shields.io/github/issues-pr-closed/devvyyxyz/docsv2)![Dependencies Status](https://img.shields.io/librariesio/github/devvyyxyz/docsv2)
 
 ## Additional
 
@@ -34,8 +34,8 @@ sidebar_position: 1
 
 ## Code Quality
 
-![Maintainability](https://img.shields.io/codeclimate/maintainability/devvyyxyz/docs)![Code Coverage](https://img.shields.io/codecov/c/github/devvyyxyz/docs)
+![Maintainability](https://img.shields.io/codeclimate/maintainability/devvyyxyz/docsv2)![Code Coverage](https://img.shields.io/codecov/c/github/devvyyxyz/docsv2)
 
 ## Security & License
 
-![Vulnerabilities](https://img.shields.io/snyk/vulnerabilities/github/devvyyxyz/docs)![License](https://img.shields.io/github/license/devvyyxyz/docs)
+![Vulnerabilities](https://img.shields.io/snyk/vulnerabilities/github/devvyyxyz/docsv2)![License](https://img.shields.io/github/license/devvyyxyz/docsv2)

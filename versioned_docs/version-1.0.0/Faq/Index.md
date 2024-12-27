@@ -1,7 +1,7 @@
 ---
 title: FAQ
 description: Frequently asked question.
-sidebar_position: 99
+sidebar_position: 3
 ---
 
 Welcome to the **Dev0 FAQ**! Below you'll find answers to common questions about the platform. If your question isn’t listed, feel free to reach out via our [GitHub Discussions](https://github.com/orgs/Dev0-bot/discussions) or Discord community.

@@ -1,9 +1,35 @@
 ---
-title: Common Errors
-description: Commonly met errors in BMD
-sidebar_position: 1
----
+# id: 'doc'
 
+title: Common Errors
+title_meta: Common Errors
+
+sidebar_label: Common Errors
+sidebar_position: 1
+sidebar_class_name: bmd
+# sidebar_custom_props: 
+displayed_sidebar: bmd
+
+hide_title: false
+hide_table_of_contents: false
+
+toc_max_heading_level: 3
+toc_min_heading_level: 2
+
+# pagination_next: null
+# pagination_next: null
+
+# pagination_next: null
+
+keywords: ["intro", "home"]
+description: Commonly met errors in BMD
+# image: 
+# tags: [intro, main, repoinfo, home, basic, releases, announcements]
+draft: false
+unlisted: false
+# last_update: 
+# slug: /
+---
 import TOCInline from '@theme/TOCInline';
 
 <TOCInline toc={toc} maxHeadingLevel={2} minHeadingLevel={2}/>

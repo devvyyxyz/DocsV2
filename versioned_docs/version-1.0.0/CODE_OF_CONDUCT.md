@@ -1,3 +1,9 @@
+---
+title: Code Of Conduct
+tags:
+  - codeofconduct
+  - repoinfo
+---
 # Contributor Covenant Code of Conduct
 
 ## Our Pledge

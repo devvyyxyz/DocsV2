@@ -26,12 +26,16 @@ announcements:
 codeofconduct:
   label: 'Code Of Conduct'
   permalink: '/coc-tag'
-  description: 'For main pages'
+  description: 'For code of conduct pages'
 contributing:
   label: 'Contributing'
   permalink: '/contrib-tag'
-  description: 'For main pages'
+  description: 'For pages about contributing'
+license:
+  label: 'License'
+  permalink: '/license-tag'
+  description: 'For license pages'
 repoinfo:
   label: 'Repo Information'
   permalink: '/repoinfo-tag'
-  description: 'For main pages'
+  description: 'For pages on repo informatio'

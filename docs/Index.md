@@ -1,9 +1,33 @@
 ---
-title: Intro
+id: 'home'
+
+title: Home
+title_meta: Home
+
+sidebar_label: Home
 sidebar_position: 1
-tags:
-  - intro
-  - main
+# sidebar_class_name:
+# sidebar_custom_props: 
+displayed_sidebar: main
+
+hide_title: false
+hide_table_of_contents: true
+
+toc_max_heading_level: 3
+toc_min_heading_level: 2
+
+# pagination_next: null
+# pagination_next: null
+
+# pagination_next: null
+
+keywords: ["intro", "home"]
+description: Description is empty:(
+# image: 
+tags: [intro, main, repoinfo, home, basic, releases, announcements]
+draft: false
+unlisted: false
+# last_update: 
 slug: /
 ---
 

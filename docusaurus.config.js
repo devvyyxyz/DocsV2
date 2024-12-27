@@ -1,9 +1,3 @@
-// @ts-check
-// `@type` JSDoc annotations allow editor autocompletion and type checking
-// (when paired with `@ts-check`).
-// There are various equivalent ways to declare your Docusaurus config.
-// See: https://docusaurus.io/docs/api/docusaurus-config
-
 import {themes as prismThemes} from 'prism-react-renderer';
 
 // This runs in Node.js - Don't use client-side code here (browser APIs, JSX...)
@@ -12,25 +6,17 @@ import {themes as prismThemes} from 'prism-react-renderer';
 const config = {
   title: 'Devvyyxyz docs',
   tagline: 'Creating, Innovation & Expert Learning',
-  favicon: 'static/Ico/Favicon.ico',
-
-  // Set the production url of your site here
+  favicon: '/Ico/Favicon.ico',
   url: 'https://docs.devvyy.xyz',
-  // Set the /<baseUrl>/ pathname under which your site is served
-  // For GitHub pages deployment, it is often '/<projectName>/'
-  baseUrl: '/docs/intro',
-
-  // GitHub pages deployment config.
-  // If you aren't using GitHub pages, you don't need these.
+  baseUrl: '/',
   organizationName: 'devyyxyzv', // Usually your GitHub org/user name.
   projectName: 'docsV2', // Usually your repo name.
 
   onBrokenLinks: 'log',
   onBrokenMarkdownLinks: 'warn',
 
-  // Even if you don't use internationalization, you can use this field to set
-  // useful metadata like html lang. For example, if your site is Chinese, you
-  // may want to replace "en" with "zh-Hans".
+  staticDirectories: ['public', 'static'],
+
   i18n: {
     defaultLocale: 'en',
     locales: [
@@ -134,7 +120,6 @@ const config = {
       },
     },
   },
-
   presets: [
     [
       'classic',
@@ -142,28 +127,13 @@ const config = {
       ({
         docs: {
           routeBasePath: '/',
-          sidebarPath: './sidebars.js',
+            sidebarPath: './sidebars.js',
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
             'https://github.com/devvyyxyz/docsv2/tree/main',
         },
-        blog: false,
-        // blog: {
-        //   showReadingTime: true,
-        //   feedOptions: {
-        //     type: ['rss', 'atom'],
-        //     xslt: true,
-        //   },
-        //   // Please change this to your repo.
-        //   // Remove this to remove the "edit this page" links.
-        //   editUrl:
-        //     'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
-        //   // Useful options to enforce blogging best practices
-        //   onInlineTags: 'warn',
-        //   onInlineAuthors: 'warn',
-        //   onUntruncatedBlogPosts: 'warn',
-        // },
+        blog: null,
         theme: {
           customCss: './src/css/custom.css',
         },
@@ -180,16 +150,14 @@ const config = {
   ],
   headTags: [
     // Declare a <link> preconnect tag
-    {
-      tagName: 'link',
+    {tagName: 'link',
       attributes: {
         rel: 'preconnect',
-        href: 'https://example.com',
+        href: 'https://devvyy.xyz',
       },
     },
     // Declare some json-ld structured data
-    {
-      tagName: 'script',
+    {tagName: 'script',
       attributes: {
         type: 'application/ld+json',
       },
@@ -203,18 +171,33 @@ const config = {
     },
   ],
 
+
+
+
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       // Replace with your project's social card
-      image: 'static/banners/FAQ.png',
+      image: 'Banners/FAQ.png',
       navbar: {
         title: 'Devvyyxyz | DOCS',
         logo: {
           alt: 'Devvyyxyz Logo',
-          src: 'static/Png/Logo.png',
+          src: '/Png/Logo.png',
         },
         items: [
+          {
+            type: 'docSidebar',
+            position: 'left',
+            sidebarId: 'main',
+            label: 'Home',
+          },
+          {
+            type: 'docSidebar',
+            position: 'left',
+            sidebarId: 'bmd',
+            label: 'BMD',
+          },
           {
             href: 'https://devvyy.xyz',
             label: 'Website',
@@ -332,34 +315,10 @@ const config = {
         darkTheme: prismThemes.dracula,
       },
       metadata: [
-        {name: 'keywords', content: 'cooking, blog, bocs, devvyyxyz'},
+        {name: 'keywords', content: 'cooking, blog'},
         {name: 'twitter:card', content: 'summary_large_image'},
       ],
     }),
-  headTags: [
-    // Declare a <link> preconnect tag
-    {
-      tagName: 'link',
-      attributes: {
-        rel: 'preconnect',
-        href: 'https://example.com',
-      },
-    },
-    // Declare some json-ld structured data
-    {
-      tagName: 'script',
-      attributes: {
-        type: 'application/ld+json',
-      },
-      innerHTML: JSON.stringify({
-        '@context': 'https://schema.org/',
-        '@type': 'Organization',
-        name: 'Meta Open Source',
-        url: 'https://opensource.fb.com/',
-        logo: 'https://opensource.fb.com/img/logos/Meta-Open-Source.svg',
-      }),
-    },
-  ],
 };
 
 export default config;

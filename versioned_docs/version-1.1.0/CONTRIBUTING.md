@@ -1,3 +1,36 @@
+---
+id: 'contributing'
+
+title: Contributing
+title_meta: Contributing
+
+sidebar_label: Contributing
+sidebar_position: 1
+# sidebar_class_name:
+# sidebar_custom_props: 
+displayed_sidebar: main
+
+hide_title: false
+hide_table_of_contents: true
+
+toc_max_heading_level: 3
+toc_min_heading_level: 2
+
+# pagination_next: null
+# pagination_next: null
+
+# pagination_next: null
+
+keywords: ["intro", "home"]
+description: Description is empty:(
+# image: 
+tags: [contributing, repoinfo]
+draft: false
+unlisted: false
+# last_update: 
+# slug: /
+---
+
 # Uploading Mods via GitHub Pull Requests
 
 To contribute your mods to this repository, you can submit a pull request using either the GitHub web interface or your local machine. Follow the steps below for your preferred method.

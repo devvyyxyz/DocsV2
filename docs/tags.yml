@@ -1,8 +1,44 @@
 intro:
   label: 'Intro'
   permalink: '/intro-tag'
-  description: 'For introduction pages'
+  description: 'For pages that are an introduction to new topics/sections'
 main:
   label: 'Main'
   permalink: '/main-tag'
-  description: 'For main pages'
+  description: 'For main pages on the docs webiste'
+home:
+  label: 'Home'
+  permalink: '/home-tag'
+  description: 'For pages that are meant to act as a sort of home to a collection of other pages'
+basic:
+  label: 'Basic'
+  permalink: '/basic-tag'
+  description: 'For pages that serve little or vert basic information'
+releases:
+  label: 'Releases'
+  permalink: '/releases-tag'
+  description: 'For pages talk about the latest releases'
+announcements:
+  label: 'Announcements'
+  permalink: '/announcements-tag'
+  description: 'For pages that are announcements'
+codeofconduct:
+  label: 'Code Of Conduct'
+  permalink: '/coc-tag'
+  description: 'For code of conduct pages'
+contributing:
+  label: 'Contributing'
+  permalink: '/contrib-tag'
+  description: 'For pages about contributing'
+license:
+  label: 'License'
+  permalink: '/license-tag'
+  description: 'For license pages'
+repoinfo:
+  label: 'Repo Information'
+  permalink: '/repoinfo-tag'
+  description: 'For pages on repo informatio'
+localisation:
+  label: 'Localisation'
+  permalink: '/local-tag'
+  description: 'No description :('
