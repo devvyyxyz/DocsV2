@@ -187,6 +187,10 @@ const config = {
         },
         items: [
           {
+            type: 'docsVersionDropdown',
+            position: 'left',
+          },
+          {
             type: 'docSidebar',
             position: 'left',
             sidebarId: 'main',
@@ -195,36 +199,151 @@ const config = {
           {
             type: 'docSidebar',
             position: 'left',
+            sidebarId: 'dev0',
+            label: 'Dev0',
+          },
+          {
+            type: 'docSidebar',
+            position: 'left',
             sidebarId: 'bmd',
             label: 'BMD',
           },
           {
-            href: 'https://devvyy.xyz',
-            label: 'Website',
+            type: 'dropdown',
+            label: 'Socials',
             position: 'right',
+            items: [  
+                {
+                  href: 'https://devvyy.xyz',
+                  label: 'Facebook',
+                },
+                {
+                  href: 'https://github.com/devvyyxyz',
+                  label: 'GitHub',
+                },
+                {
+                  href: 'https://twitter.com/devvyyxyz',
+                  label: 'Twitter',
+                },
+                {
+                  href: 'https://linkedin.com/in/devvyyxyz',
+                  label: 'LinkedIn',
+                },
+                {
+                  href: 'https://dev.to/devvyyxyz',
+                  label: 'Dev.to',
+                },
+                {
+                  href: 'https://www.instagram.com/devvyyxyz',
+                  label: 'Instagram',
+                },
+                {
+                  href: 'https://www.twitch.tv/devvyyxyz',
+                  label: 'Twitch',
+                },
+                {
+                  href: 'https://www.youtube.com/@devvyyxyz',
+                  label: 'YouTube',
+                },
+                {
+                  href: 'https://www.reddit.com/u/devvyyxyz',
+                  label: 'Reddit',
+                },
+                {
+                  href: 'https://stackoverflow.com/users/devvyyxyz',
+                  label: 'Stack Overflow',
+                },
+                {
+                  href: 'https://gitlab.com/devvyyxyz',
+                  label: 'GitLab',
+                },
+                {
+                  href: 'https://bitbucket.org/devvyyxyz',
+                  label: 'Bitbucket',
+                },
+                {
+                  href: 'https://codepen.io/devvyyxyz',
+                  label: 'CodePen',
+                },
+                {
+                  href: 'https://www.hackerrank.com/devvyyxyz',
+                  label: 'HackerRank',
+                },
+                {
+                  href: 'https://leetcode.com/devvyyxyz',
+                  label: 'LeetCode',
+                },
+                {
+                  href: 'https://medium.com/@devvyyxyz',
+                  label: 'Medium',
+                },
+                {
+                  href: 'https://hashnode.com/@devvyyxyz',
+                  label: 'Hashnode',
+                },
+                {
+                  href: 'https://discord.com/invite/devvyyxyz',
+                  label: 'Discord',
+                },
+                {
+                  href: 'https://t.me/devvyyxyz',
+                  label: 'Telegram',
+                },
+                {
+                  href: 'https://www.reddit.com/r/devvyyxyz',
+                  label: 'Reddit (Subreddit)',
+                },
+                {
+                  href: 'https://mastodon.social/@devvyyxyz',
+                  label: 'Mastodon',
+                },
+                {
+                  href: 'https://www.joinclubhouse.com/@devvyyxyz',
+                  label: 'Clubhouse',
+                },
+                {
+                  href: 'https://dribbble.com/devvyyxyz',
+                  label: 'Dribbble',
+                },
+                {
+                  href: 'https://www.behance.net/devvyyxyz',
+                  label: 'Behance',
+                }
+            ]
           },
           {
-            href: 'https://github.com/devvyyxyz/docs',
-            label: 'GitHub',
+            type: 'dropdown',
+            label: 'Legal',
             position: 'right',
+            items: [
+              {
+                href: 'https://github.com/devvyyxyz/docs',
+                label: 'GitHub',
+              },
+              {
+                href: 'https://www.devvyy.xyz/terms-and-conditions',
+                label: 'Terms & Conditions',
+              },
+              {
+                href: 'https://www.devvyy.xyz/privacy-policy',
+                label: 'Privacy policy',
+              }
+            ],
           },
           {
-            href: 'https://www.devvyy.xyz/terms-and-conditions',
-            label: 'Terms & Conditions',
+            type: 'dropdown',
+            label: 'other',
             position: 'right',
-          },
-          {
-            href: 'https://www.devvyy.xyz/privacy-policy',
-            label: 'Privacy policy',
-            position: 'right',
+            items: [  
+              {
+                href: 'https://devvyy.xyz',
+                label: 'Website',
+              }
+            ],
           },
           {
             type: 'localeDropdown',
             position: 'right',
-          },
-          {
-            type: 'docsVersionDropdown',
-            position: 'left',
           },
         ],
       },

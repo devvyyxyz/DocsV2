@@ -1,10 +1,7 @@
----
-title: FAQ
-description: Frequently asked question.
-sidebar_position: 3
----
-
+![FAQ](/Banners/FAQ.png)
 Welcome to the **Dev0 FAQ**! Below you'll find answers to common questions about the platform. If your question isn’t listed, feel free to reach out via our [GitHub Discussions](https://github.com/orgs/Dev0-bot/discussions) or Discord community.
+
+---
 
 ## :icon-question: General Questions
 
@@ -60,4 +57,4 @@ Definitely! Dev0 welcomes community contributions. Whether it’s code, document
 
 Still have questions? Let us know:
 
-<button href="https://discord.com/invite/Dev0">Contact Us</button>
+<button href="https://discord.com/invite/Dev0" style="button">Contact Us</button>
