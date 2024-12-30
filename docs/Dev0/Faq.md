@@ -1,9 +1,42 @@
+---
+title: FAQ
+title_meta: FAQ
+
+sidebar_label: FAQ
+# sidebar_position: 4
+# sidebar_class_name:
+# sidebar_custom_props: 
+# displayed_sidebar:
+
+# hide_title: false
+# hide_table_of_contents: false
+
+# toc_max_heading_level: 2
+# toc_min_heading_level: 2
+
+# pagination_next: null
+# pagination_next: null
+
+# pagination_next: null
+
+keywords: ["dev0", "faq"]
+description: Frequently asked question for Dev0
+# image: 
+tags:
+    - faq
+    - dev0
+# draft: true
+# unlisted: false
+# last_update: 
+# slug: /
+---
+
 ![FAQ](/Banners/FAQ.png)
 Welcome to the **Dev0 FAQ**! Below you'll find answers to common questions about the platform. If your question isn’t listed, feel free to reach out via our [GitHub Discussions](https://github.com/orgs/Dev0-bot/discussions) or Discord community.
 
 ---
 
-## :icon-question: General Questions
+## General Questions
 
 ### What is Dev0?
 Dev0 is an open-source bot designed to help Discord server admins manage their communities with features like moderation, roles, custom messages, economy systems, and more.
@@ -13,7 +46,7 @@ Yes! Dev0 is completely free and open source. You can also contribute to its dev
 
 ---
 
-## :icon-accessibility: Setup and Usage
+## Setup and Usage
 
 ### How do I add Dev0 to my Discord server?
 1. Click the button below to invite Dev0 to your server.
@@ -31,7 +64,7 @@ Absolutely! Dev0 is highly customizable, allowing you to configure moderation ru
 
 ---
 
-## :icon-file-code: Technical Questions
+## Technical Questions
 
 ### Where is the source code hosted?
 The source code is available on our [GitHub repository](https://github.com/Dev0-bot/dev0-source). Feel free to fork it or submit pull requests to contribute.
@@ -44,7 +77,7 @@ You can report bugs or suggest features via our [GitHub Issues](https://github.c
 
 ---
 
-## :icon-comment-discussion: Community and Support
+## Community and Support
 
 ### How can I get support?
 1. Join our [Discord Community](https://dev0.devvyy.xyz/discord) to connect with other users and the development team.

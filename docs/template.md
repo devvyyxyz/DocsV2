@@ -11,8 +11,8 @@
 # hide_title: false
 # hide_table_of_contents: false
 
+# toc_max_heading_level: 3
 # toc_min_heading_level: 2
-# toc_min_heading_level: 1
 
 # pagination_next: null
 # pagination_next: null

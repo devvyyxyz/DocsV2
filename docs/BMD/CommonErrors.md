@@ -1,32 +1,33 @@
 ---
-# id: 'doc'
-
 title: Common Errors
 title_meta: Common Errors
 
 sidebar_label: Common Errors
-sidebar_position: 1
-sidebar_class_name: bmd
+sidebar_position: 6
+# sidebar_class_name:
 # sidebar_custom_props: 
-displayed_sidebar: bmd
+# displayed_sidebar:
 
 hide_title: false
 hide_table_of_contents: false
 
-toc_max_heading_level: 3
-toc_min_heading_level: 2
+# toc_max_heading_level: 2
+# toc_min_heading_level: 2
 
 # pagination_next: null
 # pagination_next: null
 
 # pagination_next: null
 
-keywords: ["intro", "home"]
-description: Commonly met errors in BMD
+keywords: ["bmd", "updates"]
+description: BMDs Common Errors
 # image: 
-# tags: [intro, main, repoinfo, home, basic, releases, announcements]
-draft: false
-unlisted: false
+tags:
+    - updates
+    - bmd
+    - errors
+# draft: true
+# unlisted: false
 # last_update: 
 # slug: /
 ---
