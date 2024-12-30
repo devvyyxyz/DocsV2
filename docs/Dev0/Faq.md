@@ -31,7 +31,7 @@ tags:
 # slug: /
 ---
 
-![FAQ](/Banners/FAQ.png)
+[FAQ](/Banners/FAQ.png)
 Welcome to the **Dev0 FAQ**! Below you'll find answers to common questions about the platform. If your question isn’t listed, feel free to reach out via our [GitHub Discussions](https://github.com/orgs/Dev0-bot/discussions) or Discord community.
 
 ---
@@ -51,10 +51,10 @@ Yes! Dev0 is completely free and open source. You can also contribute to its dev
 ### How do I add Dev0 to my Discord server?
 1. Click the button below to invite Dev0 to your server.
 
-[!button Invite Dev0](https://dev0.devvyy.xyz/invite)
+[Invite Dev0](https://dev0.devvyy.xyz/invite)
 
-2. Follow the instructions to authorize the bot.
-3. Use the `/setup` command to begin configuring your server.
+1. Follow the instructions to authorize the bot.
+2. Use the `/setup` command to begin configuring your server.
 
 ### Where can I find the documentation?
 You can access our full documentation [here](https://dev0.devvyy.xyz).
@@ -90,4 +90,4 @@ Definitely! Dev0 welcomes community contributions. Whether it’s code, document
 
 Still have questions? Let us know:
 
-<button href="https://discord.com/invite/Dev0" style="button">Contact Us</button>
+[Contact Us](https://discord.com/invite/Dev0)

@@ -1,1 +1,0 @@
-![Setup](/Banners/Setup.png)
