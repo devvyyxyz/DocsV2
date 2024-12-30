@@ -20,7 +20,7 @@ toc_min_heading_level: 2
 # pagination_next: null
 
 keywords: ["bmd", "faq"]
-description: Frequently asked question for BMD.
+description: Frequently asked question for BMD
 # image: 
 tags:
     - faq
