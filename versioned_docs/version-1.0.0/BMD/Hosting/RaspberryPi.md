@@ -21,9 +21,7 @@ sidebar_position: 2
 
 keywords: ["bmd", "hosting"]
 description: Hosting a BMD bot on a Raspberry PI
-tags:
-    - hosting
-    - bmd
+tags: [hosting, bmd]
 # draft: true
 # unlisted: false
 # last_update: 

@@ -22,9 +22,7 @@ sidebar_position: 99
 keywords: ["bmd", "hosting"]
 description: A step-by-step guide to uploading your Discord bot files to your VPS host using FTP
 # image: 
-tags:
-    - hosting
-    - bmd
+tags: [hosting, bmd]
 # draft: true
 # unlisted: false
 # last_update: 

@@ -1,3 +1,7 @@
+none:
+  label: 'None'
+  permalink: '/none-tag'
+  description: 'No description :('
 intro:
   label: 'Intro'
   permalink: '/intro-tag'
@@ -14,6 +18,10 @@ basic:
   label: 'Basic'
   permalink: '/basic-tag'
   description: 'For pages that serve little or vert basic information'
+faq:
+  label: 'FAQ'
+  permalink: '/faq-tag'
+  description: 'No description :('
 releases:
   label: 'Releases'
   permalink: '/releases-tag'
@@ -22,6 +30,34 @@ announcements:
   label: 'Announcements'
   permalink: '/announcements-tag'
   description: 'For pages that are announcements'
+updates:
+  label: 'Updates'
+  permalink: '/updates-tag'
+  description: 'No description :('
+errors:
+  label: 'Errors'
+  permalink: '/Errors-tag'
+  description: 'No description :('
+modding:
+  label: 'Modding'
+  permalink: '/modding-tag'
+  description: 'No description :('
+hosting:
+  label: 'Hosting'
+  permalink: '/hosting-tag'
+  description: 'No description :('
+bmd:
+  label: 'Bot Maker For Discord'
+  permalink: '/bmd-tag'
+  description: 'No description :('
+mods:
+  label: 'Mod'
+  permalink: '/mod-tag'
+  description: 'No description :('
+dev0:
+  label: 'Dev0'
+  permalink: '/dev0-tag'
+  description: 'No description :('
 codeofconduct:
   label: 'Code Of Conduct'
   permalink: '/coc-tag'

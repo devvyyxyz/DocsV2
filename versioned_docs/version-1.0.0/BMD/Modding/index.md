@@ -22,11 +22,7 @@ toc_min_heading_level: 2
 keywords: ["bmd", "intro", "mods"]
 description: Modding with BMD
 # image: 
-tags:
-    - intro
-    - bmd
-    - mods
-    - modding
+tags: [intro, bmd, mods, modding]
 # draft: true
 # unlisted: false
 # last_update: 

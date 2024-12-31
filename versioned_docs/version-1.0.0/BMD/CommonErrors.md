@@ -22,10 +22,7 @@ hide_table_of_contents: false
 keywords: ["bmd", "updates"]
 description: BMDs Common Errors
 # image: 
-tags:
-    - updates
-    - bmd
-    - errors
+tags: [updates, bmd, errors]
 # draft: true
 # unlisted: false
 # last_update: 

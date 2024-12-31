@@ -22,9 +22,7 @@ sidebar_position: 1
 keywords: ["bmd", "hosting"]
 description: Hosting a BMD bot locally
 # image: 
-tags:
-    - hosting
-    - bmd
+tags: [hosting, bmd]
 # draft: true
 # unlisted: false
 # last_update: 

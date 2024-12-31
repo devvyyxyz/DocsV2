@@ -4,23 +4,11 @@ description: Guide on cleaning up Arch Linux
 sidebar_position: 1
 ---
 
-import TOCInline from '@theme/TOCInline';
+:::danger
+Please ensure you understand the purpose of each script before running it, as some scripts may alter system settings or delete files. Always run with appropriate permissions, especially for scripts requiring sudo access.
+:::
 
-<TOCInline toc={toc}/>
-
-## Contents
-- Clean pkg cache
-- Remove unused packages (orphans)
-- Clean cache in /home
-- remove old config files
-- Find and Remove
-   - duplicates
-   - empty files
-   - empty directories
-   - broken symlinks
-- Find Large files
-
-## 1 Clean pkg cache
+## Clean pkg cache
 List packages
 ```bash
 ls /var/cache/pacman/pkg/ | less 
@@ -61,7 +49,7 @@ Enable by `sudo systemctl start paccache.timer`
 Pacman post-transaction hook
 
 
-## 2 remove unused packages
+## remove unused packages
 List unused
 ```
 sudo pacman -Qtdq
@@ -72,11 +60,11 @@ Remove unused
 sudo pacman -R $(pacman -Qtdq)
 ```
 
-## 3 Clean home cache
+## Clean home cache
 cache is located in ~/.cache
 
-## 4 Config Files
+## Config Files
 stored in ~/.config/
 
-## 5 Find and remove
+## Find and remove
 install rmlint package `sudo pacman -S rm lint`.

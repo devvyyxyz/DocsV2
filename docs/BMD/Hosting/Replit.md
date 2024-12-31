@@ -22,9 +22,7 @@ sidebar_position: 5
 keywords: ["bmd", "hosting"]
 description: Hosting a BMD bot on Replit
 # image: 
-tags:
-    - hosting
-    - bmd
+tags: [hosting, bmd]
 # draft: true
 # unlisted: false
 # last_update: 

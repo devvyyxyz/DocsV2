@@ -4,12 +4,12 @@ import {themes as prismThemes} from 'prism-react-renderer';
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'Devvyyxyz docs',
+  title: 'Devvyyxyz Docs',
   tagline: 'Creating, Innovation & Expert Learning',
   favicon: '/Ico/Favicon.ico',
   url: 'https://docs.devvyy.xyz',
   baseUrl: '/',
-  organizationName: 'devyyxyzv', // Usually your GitHub org/user name.
+  organizationName: 'devvyyxyz', // Usually your GitHub org/user name.
   projectName: 'docsV2', // Usually your repo name.
 
   onBrokenLinks: 'log',
