@@ -47,7 +47,7 @@ tags:
 - !urban [word]: Fetches the Urban Dictionary definition of a word.
 - !weather [location]: Shows current weather information for a location.
 - !gif [keyword]: Fetches a random GIF based on a keyword.
-## Dev/Debug Commands
+## Dev Commands
 - !reload [command]: Reloads a specific command or module.
 - !stats: Displays bot usage statistics.
 - !eval [code]: Executes a piece of JavaScript code (restricted).
