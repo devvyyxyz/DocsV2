@@ -1,5 +1,35 @@
+---
+title: Commands
+title_meta: Commands
 
-Here are the command categories Dev0 includes
+sidebar_label: Commands
+# sidebar_position: 
+# sidebar_class_name:
+# sidebar_custom_props: 
+# displayed_sidebar:
+
+# hide_title: false
+# hide_table_of_contents: false
+
+# toc_max_heading_level: 2
+# toc_min_heading_level: 2
+
+# pagination_next: null
+# pagination_next: null
+
+# pagination_next: null
+
+keywords: ["dev0", "commands"]
+description: Here are the command categories Dev0 includes
+# image: 
+tags:
+    - faq
+    - dev0
+# draft: true
+# unlisted: false
+# last_update: 
+# slug: /
+---
 ## Utility Commands
 - !help: Displays a starter help page & a list of commands.
 - !ping: Shows the bot’s response time.
