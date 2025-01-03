@@ -1,14 +1,14 @@
-## Download Audio Track
+# Download Audio Track
 This mod downloads audio from a YouTube / SoundCloud link.
 ![](https://github.com/slothyace/bmods-acedia/blob/main/Documentation/downloadMusicFile.png)
 
-### Requirements
+## Requirements
 | Requirements |
 | --- |
 | [yt-dlp](https://github.com/yt-dlp/yt-dlp) |
 | All [ffmpeg](https://www.ffmpeg.org/download.html) related stuff, mainly the binary. |
 
-### Documentation
+## Documentation
 Inputs
 | Component | Documentation |
 | --- | --- |
