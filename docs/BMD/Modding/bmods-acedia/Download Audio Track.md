@@ -3,8 +3,9 @@ This mod downloads audio from a YouTube / SoundCloud link.
 ![](https://github.com/slothyace/bmods-acedia/blob/main/Documentation/downloadMusicFile.png)
 
 ### Requirements
-1. [yt-dlp](https://github.com/yt-dlp/yt-dlp)
-2. All [ffmpeg](https://www.ffmpeg.org/download.html) related stuff, mainly the binary.
+| --- |
+| [yt-dlp](https://github.com/yt-dlp/yt-dlp) |
+| All [ffmpeg](https://www.ffmpeg.org/download.html) related stuff, mainly the binary. |
 
 ### Documentation
 Inputs
