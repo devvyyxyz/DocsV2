@@ -8,7 +8,10 @@ This repository includes various quality-of-life (QOL) edits to enhance user exp
 3. Fixes to the base BMD actions
 
 ### Getting Started
-1. Download bmods-acedia<br>
-```git clone https://github.com/slothyace/bmods-acedia```<br>
+1. Download bmods-acedia
+```
+git clone https://github.com/slothyace/bmods-acedia
+```
+
 2. Install mods by dragging the `.js` files into the appropriate files
 3. Enjoy the mods
