@@ -1,5 +1,5 @@
 # bmods-acedia
-bmods-acedia is a dedicated repository for modded actions and events tailored for BMD.<br>
+bmods-acedia is a dedicated repository for modded actions and events tailored for BMD.<br></br>
 This repository includes various quality-of-life (QOL) edits to enhance user experience.
 
 ## Features
