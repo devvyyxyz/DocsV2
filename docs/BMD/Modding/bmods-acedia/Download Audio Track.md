@@ -14,7 +14,7 @@ Inputs
 | --- | --- |
 | `Audio Source Link` | Link to the audio source.<br>Can be YouTube or SoundCloud, Spotify is not supported. |
 | `Audio Format` | Audio format to download in.<br>Recommended is `mp3` for its file size. |
-| `Storage Path` | Where to store the downloaded audio file in the project folder, seperated by `:`.<br>i.e If I want it stored in `./Music/Folder`, input `Music:Folder`. |
+| `Storage Path` | Where to store the downloaded audio file in the project folder, seperated by `:`.<br>*i.e.* If I want it stored in `./Music/Folder`, input `Music:Folder`. |
 
 Outputs
 | Component | Documentation |
