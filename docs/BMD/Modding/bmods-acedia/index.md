@@ -9,6 +9,6 @@ This repository includes various quality-of-life (QOL) edits to enhance user exp
 
 ### Getting Started
 1. Download bmods-acedia<br>
-```git clone https://github.com/slothyace/bmods-acedia```
+```git clone https://github.com/slothyace/bmods-acedia```<br>
 2. Install mods by dragging the `.js` files into the appropriate files
 3. Enjoy the mods
