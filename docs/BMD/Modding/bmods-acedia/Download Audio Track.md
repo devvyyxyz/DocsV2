@@ -1,6 +1,6 @@
 # Download Audio Track
 This mod downloads audio from a YouTube / SoundCloud link.
-![](https://github.com/slothyace/bmods-acedia/blob/main/Documentation/downloadMusicFile.png)
+![](https://github.com/slothyace/bmods-acedia/blob/main/.documentation/downloadMusicFile.png)
 
 ## Requirements
 | Requirements | Where It Should Be Placed In Project Folder |
