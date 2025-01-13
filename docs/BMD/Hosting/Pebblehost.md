@@ -28,29 +28,35 @@ tags: [hosting, bmd]
 # last_update: 
 # slug: /
 ---
+
 ## Purchase discord bot plan
-Visit https://billing.pebblehost.com and o echase The **Discord bot hosting** plan
+Visit https://billing.pebblehost.com to purchase the **Discord bot hosting** plan.
 ## Connect to panel
-Creditals found via billing emails inbox, visit https://panel.pebblehost.com and enter the username and password provided.
-
+You can find the information in the billing emails inbox. Please visit https://panel.pebblehost.com and enter the provided username and password.
 ## Uploading files
-Uploading your files can be done via the uppoad file option on the panel or via FTP (file transfer protocol), it is best practice and much easier to use FTP. A guide for uploading files with FTP can be found [here](#ftp)
-
+To upload your files, you can use the "Upload File" option on the panel or utilize FTP (File Transfer Protocol). Using FTP is generally considered best practice and is much easier. You can find a guide for uploading files via FTP [here](#ftp).
 ## Edit bot start file config
+Go to the Pebblehost loader tab and change your "bot start file" from 'index.js' to 'bot.js'. If it is already set to 'bot.js', then leave it as is.
 
+Go to the **bot language** section, select both “bot hosting” and “Node.js bot,” and then restart the host using the restart button.
 ## Install all required node modules 
-Installing node modules through the console is not possible with Pebblehost, due to this we will navigate to the node modules section 
+Installing node modules through the console is not possible on Pebblehost. Therefore, we will navigate to the node modules section.
 [Image of node modules section]
-Type in the search bar each required node modules that your project requires, if you are unsure what too type here don't worry! A full list of all modules needed can be found in the `package.json` file (however if you don't know what to look for here ignore it as the console will print `module 'nameofmodule' is missing` for any required missing modules.
-
+To install the required node modules for your project, type each one into the search bar. If you're unsure about what to enter, don't worry! You can refer to the `package.json` file for a complete list of all the necessary ones. However, if you're not sure what to look for, just ignore it; the console will display a message like `module 'nameofmodule' is missing` or something similar for any required modules that are not installed.
 ## Turning bot online
-Turning your bot online is as simple pressing this button 
+Turning your bot online is as simple pressing the **start** button
 [Image]
+## Fixing startup
+BMD is facing an issue with startup initialization in the ʼpackage.jsonʼ file. To resolve this, please add the necessary line I ʼpackage.jsonʼ.
 
-## Fixing startup and connecting to git
-
+ʼʼʼjson
+"name": "",
+  "description": "",
+  "author": "",
+  "main": "bot.js",   <——this line is what needs to be added
+  ʼʼʼ
 ## Connecting to SQL db
-
+You can connect to your SQL database for fre[#sql]
 ## Common errors 
-
-
+A list of common errors can be found here [#errors]
+## Extra resources
