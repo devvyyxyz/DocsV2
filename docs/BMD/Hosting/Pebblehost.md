@@ -11,8 +11,8 @@ sidebar_position: 3
 # hide_title: false
 # hide_table_of_contents: false
 
-# toc_max_heading_level: 2
-# toc_min_heading_level: 1
+toc_max_heading_level: 2
+toc_min_heading_level: 2
 
 # pagination_next: null
 # pagination_next: null
@@ -26,7 +26,7 @@ tags: [hosting, bmd]
 # draft: true
 # unlisted: false
 # last_update: 
-# slug: /
+slug: /bmd/pebblehost
 ---
 
 ## Purchase discord bot plan
