@@ -1,34 +1,19 @@
 ---
-# id: 'doc'
-
-title: Creating Mods
-title_meta: Creating Mods
-
-sidebar_label: Creating Mods
-sidebar_position: 11
-# sidebar_class_name:
-# sidebar_custom_props: 
+title: Creating mods
+title_meta: Creating mods
+sidebar_label: Creating mods
+sidebar_position: 2
 displayed_sidebar: bmd
-
 hide_title: false
 hide_table_of_contents: false
-
 toc_max_heading_level: 3
 toc_min_heading_level: 2
-
-# pagination_next: null
-# pagination_next: null
-
-# pagination_next: null
-
-keywords: ["intro", "home"]
+keywords:
+  - intro
+  - home
 description: How to create mods in BMD
-# image: 
-# tags: [intro, main, repoinfo, home, basic, releases, announcements]
 draft: false
 unlisted: false
-# last_update: 
-# slug: /
 ---
 
 import TOCInline from '@theme/TOCInline';
