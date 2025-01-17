@@ -42,6 +42,8 @@ The bot makers I will be comparing this app with are:
 - **Discord Bot Builder (DBB)**
 - **Bot Studio for Discord (BS(f)D)**
 
+### What updates has BMD had?
+For detailed patch notes, visit the [official Steam News page](https://store.steampowered.com/news/app/2592170), Otherwise you can view it's shortened [[docs/BMD/History|History]].
 ### Generalized User Types
 - **I want the latest Discord API features without having the app:**  
   **Bot Maker for Discord (BMD)**

@@ -7,11 +7,11 @@
 Explore the wealth of information we have on Dev0—from its various systems to its extensive settings—all neatly organized into easy-to-navigate categories.
 
 - **Introduction:** Learn about Dev0’s purpose and features, including a detailed explanation of its powerful security functionalities.
-- ~~**Setup:** Follow step-by-step instructions on how the team recommends setting up Dev0 for optimal performance in your specific use case.~~
+- ~~**[[docs/Dev0/Setup|Setup]]:** Follow step-by-step instructions on how the team recommends setting up Dev0 for optimal performance in your specific use case.~~
 - **Commands:** Dive deep into all the commands Dev0 offers, complete with usage examples and explanations.
-- **FAQ:** Get answers to the most frequently asked questions about Dev0 and its capabilities.
+- **[[docs/Dev0/Faq|Faq]]:** Get answers to the most frequently asked questions about Dev0 and its capabilities.
 - ~~**Troubleshooting:** Resolve common issues with guides and tips provided by the team.~~
-- **Changelog:** Stay updated with the latest features, improvements, and fixes introduced to Dev0.
+- **[[versioned_docs/version-1.0.0/Dev0/Changelog/All|All]]:** Stay updated with the latest features, improvements, and fixes introduced to Dev0.
 
 ## Info
 
