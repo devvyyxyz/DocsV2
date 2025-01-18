@@ -50,6 +50,9 @@ Explore the wealth of information we have on Devvyyxyz's various projects all ne
 - [Discord Server](https://dev0.devvyy.xyz/discord)
 :::
 
+## Changelog
+ A full changelog for the documentation can be found [here](changelog)
+
 :::success Completely new to Devvyyxyz's projects??
 If you are new, start with the Introduction category to understand what these projects and how it can benefit you.
 :::

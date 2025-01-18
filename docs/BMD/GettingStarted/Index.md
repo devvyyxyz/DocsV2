@@ -93,3 +93,5 @@ Click the "Scopes" dropdown and add "bot" to it.
 You'll be requested to add permissions - give your bot what you think it needs.
 Afterwards, copy the link and paste it in discord. Click it from within discord, and select "Add To Server" from what pops up
 ![](https://steamuserimages-a.akamaihd.net/ugc/2500146249953733554/589E9FD64AEB64A08C558D32C847CA527F1E56DA/)
+## What next?
+Maybe try setting up [user installable comamnds](BMD/GettingStarted/Advanced/UserInstallableCommands) or [node modules](BMD/GettingStarted/Advanced/InstallingModulesPackages)

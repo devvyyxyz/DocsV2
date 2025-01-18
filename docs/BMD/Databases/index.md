@@ -20,7 +20,7 @@ tags:
 ## Databases
 BMD support multiple database type via mods, which can be found here.
 
-Follow this guide for [[Installing mods]].
+Follow this guide for [[InstallingMods]].
 ### MySql
 ## Json
 ## Quick DB
