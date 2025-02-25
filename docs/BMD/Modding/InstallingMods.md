@@ -3,7 +3,7 @@ title: Installing mods
 title_meta: Installing mods
 sidebar_label: Installing mods
 sidebar_position: 1
-displayed_sidebar: Installing mods
+# displayed_sidebar: 
 hide_title: false
 hide_table_of_contents: false
 toc_max_heading_level: 3

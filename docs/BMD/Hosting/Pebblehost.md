@@ -49,12 +49,13 @@ Turning your bot online is as simple pressing the **start** button
 ## Fixing startup
 BMD is facing an issue with startup initialization in the ʼpackage.jsonʼ file. To resolve this, please add the necessary line I ʼpackage.jsonʼ.
 
-ʼʼʼjson
+```json
 "name": "",
   "description": "",
   "author": "",
   "main": "bot.js",   <——this line is what needs to be added
-  ʼʼʼ
+```
+
 ## Connecting to SQL db
 You can connect to your SQL database for fre[#sql]
 ## Common errors 
